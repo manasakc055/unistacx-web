@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const fallbackImage = '/projects/landscape-placeholder.svg'; // put your fallback image in /public/projects/
 
 const ProjectCard = ({ project }) => {
-    const imageSrc = project.image
-        ? `/projects/${project.image}`
+    const imageSrc = project.coverImage
+        ? `/projects/${project.coverImage}`
         : fallbackImage;
 
     return (
@@ -41,7 +41,7 @@ const ProjectCard = ({ project }) => {
                     </p>
                     <div className="mt-auto d-flex align-items-center justify-content-between">
             <span className="fw-semibold text-dark">
-              {project.agency || 'Unknown Agency'}
+              {project.name || 'Unknown Agency'}
             </span>
                         <div
                             className="btn btn-light rounded-circle shadow-sm p-2 text-black border-0"

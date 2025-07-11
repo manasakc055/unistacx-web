@@ -11,16 +11,16 @@ const ProjectCard = ({ project }) => {
     return (
         <Link to={`/portfolio/${project.id}`} className="text-decoration-none">
             <div
-                className="card border-0 shadow-sm rounded-4 overflow-hidden position-relative h-100"
-                style={{ cursor: 'pointer', transition: 'transform 0.3s ease' }}
+                className="card bg-grey border-0 shadow-lg rounded-4 overflow-hidden position-relative h-100"
+                style={{cursor: 'pointer', transition: 'transform 0.3s ease'}}
             >
                 <div
-                    className="overflow-hidden"
+                    className="overflow-hidden shadow shadow-sm border border-2"
                     style={{
-                        height: '220px',
-                        backgroundColor: '#f8f9fa',
+                        aspectRatio: '4 / 3',
+                        backgroundColor: '#a1a1a1',
                         margin: '10px',
-                        borderRadius: '12px',
+                        borderRadius: '6px',
                         border: '1px solid #f1f1f1',
                     }}
                 >
@@ -34,6 +34,7 @@ const ProjectCard = ({ project }) => {
                         }}
                     />
                 </div>
+
 
                 <div className="card-body d-flex flex-column p-3">
                     <p className="card-text text-muted small mb-3">
@@ -57,18 +58,20 @@ const ProjectCard = ({ project }) => {
                 </div>
 
                 <style jsx="true">{`
-          .card:hover img {
-            transform: scale(1.05);
-          }
-          .btn:hover {
-            background-color: #e7f3ff;
-            box-shadow: 0 0.25rem 0.5rem rgba(0, 123, 255, 0.2);
-          }
-          .card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
-          }
-        `}</style>
+                    .card:hover img {
+                        transform: scale(1.05);
+                    }
+
+                    .btn:hover {
+                        background-color: #e7f3ff;
+                        box-shadow: 0 0.25rem 0.5rem rgba(0, 123, 255, 0.2);
+                    }
+
+                    .card:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+                    }
+                `}</style>
             </div>
         </Link>
     );

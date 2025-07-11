@@ -1,34 +1,49 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const CategoryRow = ({ search, setSearch }) => {
-  const [isFocused, setIsFocused] = useState(false);
+const CategoryRow = ({ search, setSearch, categories, selectedCategory, setSelectedCategory }) => {
+    return (
+        <section className="bg-white py-4">
+            <div className="container">
+                <div className="row g-3 align-items-center">
 
-  return (
-    <div className=" py-3">
-      <div className="container">
-        <div className="row">
-          <div className="col d-flex justify-content-end">
-            <input
-              type="text"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              onFocus={() => setIsFocused(true)}
-              onBlur={() => setIsFocused(false)}
-              placeholder="Search projects..."
-              className="form-control rounded border border-secondary w-auto me-3"
-              style={{
-                maxWidth: '300px',
-                borderColor: isFocused ? '#0dcaf0' : '',
-                boxShadow: isFocused
-                  ? '0 0 0 0.25rem rgba(13, 202, 240, 0.5)'
-                  : ''
-              }}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+                    {/* Search Input */}
+                    <div className="col-12 col-md-5">
+                        <input
+                            type="text"
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            className="form-control form-control-lg shadow-sm"
+                            placeholder="🔍 Search projects..."
+                        />
+                    </div>
+
+                    {/* Categories Buttons */}
+                    <div className="col-12 col-md-7">
+                        <div className="d-flex flex-wrap gap-2 justify-content-md-end justify-content-start">
+                            {categories.map((category) => (
+                                <button
+                                    key={category}
+                                    className={`btn btn-sm rounded-pill ${
+                                        selectedCategory === category
+                                            ? 'btn-dark'
+                                            : 'btn-outline-dark'
+                                    }`}
+                                    style={{
+                                        minWidth: '100px',
+                                        transition: 'all 0.3s ease'
+                                    }}
+                                    onClick={() => setSelectedCategory(category)}
+                                >
+                                    {category}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    );
 };
 
 export default CategoryRow;

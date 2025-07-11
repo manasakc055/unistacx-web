@@ -1,48 +1,77 @@
 [
   {
     "id": 1,
-    "image": "evo.png",
-    "description": "The Government of Andhra Pradesh have prioritized 27 Irrigation projects in the State.",
-    "agency": "AP R & R"
+    "name": "Evo CRM Platform",
+    "shortDescription": "A modern customer relationship management platform.",
+    "longDescription": "Evo CRM helps sales teams manage leads, track customer interactions, and close deals faster. We designed a sleek UI with dashboards, integrated email tools, and advanced reporting. Built for scale with cloud-based infrastructure.",
+    "coverImage": "/projects/evo-crm-cover.png",
+    "gallery": ["/projects/evo-crm-1.png", "/projects/evo-crm-2.png"],
+    "client": "AP R & R",
+    "category": "Web Application",
+    "stack": ["React", "Node.js", "PostgreSQL", "AWS"],
+    "status": "Completed",
+    "startDate": "2022-01-15",
+    "endDate": "2022-07-30",
+    "link": "https://evo-crm.com"
   },
   {
     "id": 2,
-    "image": "sc.png",
-    "description": "R & R Polavaram Developmental projects like resettlement refers to the process of settling again in a new area.",
-    "agency": "Polavaram R & R"
-  },
-    {
-    "id": 1,
-    "image": "evo.png",
-    "description": "The Government of Andhra Pradesh have prioritized 27 Irrigation projects in the State.",
-    "agency": "AP R & R"
-  },
-  {
-    "id": 2,
-    "image": "sc.png",
-    "description": "R & R Polavaram Developmental projects like resettlement refers to the process of settling again in a new area.",
-    "agency": "Polavaram R & R"
-  } , {
-    "id": 1,
-    "image": "evo.png",
-    "description": "The Government of Andhra Pradesh have prioritized 27 Irrigation projects in the State.",
-    "agency": "AP R & R"
+    "name": "SupplyChainPro",
+    "shortDescription": "Supply chain management reimagined.",
+    "longDescription": "SupplyChainPro is an enterprise-grade platform for planning, tracking, and optimizing supply chain logistics. Features include real-time shipment tracking, warehouse management, and predictive analytics. We engineered a robust microservices backend and intuitive admin UI.",
+    "coverImage": "/projects/supplychainpro-cover.png",
+    "gallery": ["/projects/sc-1.png", "/projects/sc-2.png"],
+    "client": "Polavaram R & R",
+    "category": "Enterprise Software",
+    "stack": ["Angular", "Spring Boot", "MySQL", "Docker"],
+    "status": "Ongoing",
+    "startDate": "2023-03-01",
+    "endDate": null,
+    "link": "https://supplychainpro.app"
   },
   {
-    "id": 2,
-    "image": "sc.png",
-    "description": "R & R Polavaram Developmental projects like resettlement refers to the process of settling again in a new area.",
-    "agency": "Polavaram R & R"
-  } , {
-    "id": 1,
-    "image": "evo.png",
-    "description": "The Government of Andhra Pradesh have prioritized 27 Irrigation projects in the State.",
-    "agency": "AP R & R"
+    "id": 3,
+    "name": "Evo Mobile Banking App",
+    "shortDescription": "Secure and user-friendly banking on the go.",
+    "longDescription": "We developed a full-featured mobile banking app with biometric authentication, real-time notifications, seamless fund transfers, and bill payments. Designed for both iOS and Android with a unified design system.",
+    "coverImage": "/projects/evo-banking-cover.png",
+    "gallery": ["/projects/evo-banking-1.png", "/projects/evo-banking-2.png"],
+    "client": "AP R & R",
+    "category": "Mobile App",
+    "stack": ["Flutter", "Firebase", "Stripe"],
+    "status": "Completed",
+    "startDate": "2021-05-10",
+    "endDate": "2021-12-20",
+    "link": "https://play.google.com/store/apps/details?id=com.evo.banking"
   },
   {
-    "id": 2,
-    "image": "sc.png",
-    "description": "R & R Polavaram Developmental projects like resettlement refers to the process of settling again in a new area.",
-    "agency": "Polavaram R & R"
+    "id": 4,
+    "name": "SmartCity Dashboard",
+    "shortDescription": "A central command center for urban management.",
+    "longDescription": "The SmartCity Dashboard offers real-time monitoring of utilities, traffic, emergency services, and environmental sensors. We delivered a scalable backend with IoT integrations and a dynamic data visualization frontend.",
+    "coverImage": "/projects/smartcity-cover.png",
+    "gallery": ["/projects/smartcity-1.png", "/projects/smartcity-2.png"],
+    "client": "Polavaram R & R",
+    "category": "Data Platform",
+    "stack": ["Vue.js", "Django", "PostgreSQL", "RabbitMQ"],
+    "status": "Completed",
+    "startDate": "2022-08-01",
+    "endDate": "2023-04-15",
+    "link": "https://smartcity-dashboard.com"
+  },
+  {
+    "id": 5,
+    "name": "Evo HR Portal",
+    "shortDescription": "Streamlined HR operations in one place.",
+    "longDescription": "The Evo HR Portal automates onboarding, leave management, payroll, and performance reviews. We focused on ease of use, role-based access, and integrations with existing enterprise systems.",
+    "coverImage": "/projects/evo-hr-cover.png",
+    "gallery": ["/projects/evo-hr-1.png", "/projects/evo-hr-2.png"],
+    "client": "AP R & R",
+    "category": "Web Application",
+    "stack": ["React", "Node.js", "MongoDB"],
+    "status": "Ongoing",
+    "startDate": "2023-01-10",
+    "endDate": null,
+    "link": "https://evo-hr.com"
   }
 ]

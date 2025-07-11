@@ -9,8 +9,8 @@ const PortfolioPage = () => {
 
   const filteredProjects = projectsData.filter(
     (p) =>
-      p.description.toLowerCase().includes(search.toLowerCase()) ||
-      p.agency.toLowerCase().includes(search.toLowerCase())
+      p.shortDescription.toLowerCase().includes(search.toLowerCase()) ||
+      p.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (

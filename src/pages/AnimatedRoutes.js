@@ -10,6 +10,7 @@ import OurApproach from './ourprocess';
 import ForStartups from './for-startups';
 import Contact from "./Contact";
 import { AnimatePresence } from "framer-motion/dist/framer-motion";
+import ProjectDetailPage from "../components/portfolio-page/ProjectDetailPage";
 
 export default function AnimatedRoutes() {
   const location = useLocation();
@@ -20,7 +21,7 @@ export default function AnimatedRoutes() {
         <Route index element={<Main />} />
         <Route path='/who-we-are' element={<About />} />
         <Route path="/portfolio-page" element={<PortfolioPage />} />
-        {/* <Route path="/portfolio/:id" element={<ProjectDetailPage />} /> */}
+        <Route path="/portfolio/:id" element={<ProjectDetailPage />} />
 
         <Route path='/web-application-development' element={<Service service={0} path='/web-application-development' />} />
         <Route path='/mobile-application-development' element={<Service service={1} path='/mobile-application-development' />} />

@@ -11,21 +11,30 @@
     "status": "Completed",
     "startDate": "2022-01-15",
     "endDate": "2022-07-30",
-    "link": "https://caferaaga.com/"
+    "link": "https://caferaaga.com/",
+    "gallery": [
+      "/projects/gallery/cafe-1.png",
+      "/projects/gallery/cafe-2.png",
+       "/projects/gallery/cafe-3.png"
+    ]
   },
   {
     "id": 2,
     "name": "ChattadaSrivaishnava",
     "shortDescription": "Community website for Srivaishnava devotees.",
     "longDescription": "We developed an informative and spiritually enriched website to connect members of the Srivaishnava community. It features event updates, blog articles, donation integration, and prayer schedules.",
-    "coverImage": "csv.jpg",
+    "coverImage": "csv.png",
     "client": "Polavaram R & R",
     "category": "Enterprise Software",
     "stack": ["Angular", "Spring Boot", "MySQL", "Docker"],
     "status": "Ongoing",
     "startDate": "2023-03-01",
     "endDate": null,
-    "link": "https://chattadasrivaishnava.org/"
+    "link": "https://chattadasrivaishnava.org/",
+    "gallery": [
+      "/projects/gallery/csv-1.png",
+      "/projects/gallery/csv-2.png"
+    ]
   },
   {
     "id": 3,
@@ -39,7 +48,14 @@
     "status": "Completed",
     "startDate": "2021-05-10",
     "endDate": "2021-12-20",
-    "link": "https://speedcopy.in/"
+    "link": "https://speedcopy.in/",
+    "gallery": [
+      "/projects/gallery/sc-1.png",
+      "/projects/gallery/sc-2.png",
+            "/projects/gallery/sc-3.png"
+
+
+    ]
   },
   {
     "id": 4,
@@ -53,7 +69,11 @@
     "status": "Completed",
     "startDate": "2022-08-01",
     "endDate": "2023-04-15",
-    "link": "https://jaasrithacorporatesolutions.unistacx.com/#/"
+    "link": "https://jaasrithacorporatesolutions.unistacx.com/#/",
+    "gallery": [
+      "/projects/gallery/jcs-1.png",
+      "/projects/gallery/jcs-2.png"
+    ]
   },
   {
     "id": 5,
@@ -67,7 +87,11 @@
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
-    "link": "https://www.rurafoundation.com/"
+    "link": "https://www.rurafoundation.com/",
+    "gallery": [
+      "/projects/gallery/rura-1.png",
+      "/projects/gallery/rura-2.png"
+    ]
   },
   {
     "id": 6,
@@ -81,7 +105,11 @@
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
-    "link": "https://www.evodesignandconstructions.com/"
+    "link": "https://www.evodesignandconstructions.com/",
+    "gallery": [
+      "/projects/gallery/evo-1.png",
+      "/projects/gallery/evo-2.png"
+    ]
   },
   {
     "id": 7,
@@ -95,7 +123,11 @@
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
-    "link": "https://catalogue.decorsin.in/"
+    "link": "https://catalogue.decorsin.in/",
+    "gallery": [
+      "/projects/gallery/decorsin-1.png",
+      "/projects/gallery/decorsin-2.png"
+    ]
   },
   {
     "id": 8,
@@ -109,7 +141,11 @@
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
-    "link": "#"
+    "link": "#",
+    "gallery": [
+      "/projects/gallery/spreading-smiles-1.png",
+      "/projects/gallery/spreading-smiles-2.png"
+    ]
   },
   {
     "id": 9,
@@ -123,7 +159,11 @@
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
-    "link": "https://shanviconstructions.in/"
+    "link": "https://shanviconstructions.in/",
+    "gallery": [
+      "/projects/gallery/shanvi-const-1.png",
+      "/projects/gallery/shanvi-const-2.png"
+    ]
   },
   {
     "id": 10,
@@ -137,20 +177,42 @@
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
-    "link": "#"
+    "link": "#",
+    "gallery": [
+      "/projects/gallery/uni-ac-1.png",
+      "/projects/gallery/uni-ac-2.png"
+    ]
   },
   {
     "id": 11,
     "name": "SpeedCopy (Old)",
     "shortDescription": "The original SpeedCopy prototype platform.",
     "longDescription": "The legacy version of SpeedCopy laid the foundation for mobile-based document services. It included core upload, preview, and payment features with a minimal backend.",
-    "coverImage": "sc-old.jpg",
+    "coverImage": "sc-old.png",
     "client": "AP R & R",
     "category": "Web Application",
     "stack": ["React", "Node.js", "MongoDB"],
     "status": "Ongoing",
     "startDate": "2023-01-10",
     "endDate": null,
+    "link": "#",
+    "gallery": [
+      "/projects/gallery/sc(old)-1.png"
+    ]
+  },
+   {
+    "id": 11,
+    "name": "Vendor DashBoards",
+    "shortDescription": "The original SpeedCopy prototype platform.",
+    "longDescription": "The legacy version of SpeedCopy laid the foundation for mobile-based document services. It included core upload, preview, and payment features with a minimal backend.",
+    "coverImage": "sc-old.png",
+    "client": "AP R & R",
+    "category": "Dashboard",
+    "stack": ["React", "Node.js", "MongoDB"],
+    "status": "Ongoing",
+    "startDate": "2023-01-10",
+    "endDate": null,
     "link": "#"
+    
   }
 ]

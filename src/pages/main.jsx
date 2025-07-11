@@ -9,6 +9,7 @@ import Services from "../components/page-1/Services";
 import Process from "../components/page-1/Process";
 import Startup from "../components/page-1/Startup";
 import Contact from "../components/page-1/Contact";
+// import PortfolioPage from "../components/portfolio-page/PortfolioPage";
 import { motion } from "framer-motion/dist/framer-motion";
 import AnimateData from "./AnimateData";
 import { Helmet } from "react-helmet-async";

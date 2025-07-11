@@ -58,6 +58,11 @@ return (
               Who we are
             </NavLink>
           </li>
+          <li className="nav-item me-3" data-bs-dismiss="offcanvas">
+            <NavLink className="nav-link" to="/portfolio-page">
+              Portfolio
+            </NavLink>
+          </li>
           <li className="nav-item dropdown me-3">
             <NavLink className="nav-link dropdown-toggle" to="/Services" style={({ isActive })=> {
               return { color: isActive ? "purple" : "" };
